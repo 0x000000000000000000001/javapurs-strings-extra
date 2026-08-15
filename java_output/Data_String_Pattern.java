@@ -1,0 +1,17 @@
+public class Data_String_Pattern {
+    public static final Object FFI_STUB = new java.util.function.Function<Object, Object>() {
+        public Object apply(Object arg) { return this; }
+    };
+
+
+public static final Object Replacement = (java.util.function.Function<Object, Object>) (x_0) -> x_0;
+public static final Object Pattern = (java.util.function.Function<Object, Object>) (x_0) -> x_0;
+public static final Object showReplacement = new java.util.LinkedHashMap<String, Object>() {{ put("show", (java.util.function.Function<Object, Object>) (v_0) -> (((String) ((((String) ("(Replacement ")) + ((String) (((java.util.function.Function<Object, Object>) (Data_Show.showStringImpl)).apply(v_0)))))) + ((String) (")")))); }};
+public static final Object showPattern = new java.util.LinkedHashMap<String, Object>() {{ put("show", (java.util.function.Function<Object, Object>) (v_0) -> (((String) ((((String) ("(Pattern ")) + ((String) (((java.util.function.Function<Object, Object>) (Data_Show.showStringImpl)).apply(v_0)))))) + ((String) (")")))); }};
+public static final Object newtypeReplacement = new java.util.LinkedHashMap<String, Object>() {{ put("Coercible0", (java.util.function.Function<Object, Object>) (_dollar___unused_0) -> null /* TODO: PrimUndefined */); }};
+public static final Object newtypePattern = new java.util.LinkedHashMap<String, Object>() {{ put("Coercible0", (java.util.function.Function<Object, Object>) (_dollar___unused_0) -> null /* TODO: PrimUndefined */); }};
+public static final Object eqReplacement = new java.util.LinkedHashMap<String, Object>() {{ put("eq", (java.util.function.Function<Object, Object>) (x_0) -> (java.util.function.Function<Object, Object>) (y_1) -> java.util.Objects.equals(x_0, y_1)); }};
+public static final Object ordReplacement = new java.util.LinkedHashMap<String, Object>() {{ put("compare", (java.util.function.Function<Object, Object>) (x_0) -> (java.util.function.Function<Object, Object>) (y_1) -> ((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (Data_Ord.ordStringImpl)).apply(new Data_Ordering.LT()))).apply(new Data_Ordering.EQ()))).apply(new Data_Ordering.GT()))).apply(x_0))).apply(y_1)); put("Eq0", (java.util.function.Function<Object, Object>) (_dollar___unused_0) -> Data_String_Pattern.eqReplacement); }};
+public static final Object eqPattern = new java.util.LinkedHashMap<String, Object>() {{ put("eq", (java.util.function.Function<Object, Object>) (x_0) -> (java.util.function.Function<Object, Object>) (y_1) -> java.util.Objects.equals(x_0, y_1)); }};
+public static final Object ordPattern = new java.util.LinkedHashMap<String, Object>() {{ put("compare", (java.util.function.Function<Object, Object>) (x_0) -> (java.util.function.Function<Object, Object>) (y_1) -> ((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (((java.util.function.Function<Object, Object>) (Data_Ord.ordStringImpl)).apply(new Data_Ordering.LT()))).apply(new Data_Ordering.EQ()))).apply(new Data_Ordering.GT()))).apply(x_0))).apply(y_1)); put("Eq0", (java.util.function.Function<Object, Object>) (_dollar___unused_0) -> Data_String_Pattern.eqPattern); }};
+}
