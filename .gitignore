@@ -19,3 +19,6 @@ classes/
 *.class
 *.java.bak
 .DS_Store
+
+# Local regex scratch program
+/testRegex.java
