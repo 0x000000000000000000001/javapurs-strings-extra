@@ -1,5 +1,10 @@
 # Strings Extra
 
+## JVM tests
+
+`./bin/test` selects `strings-extra` in the [common isolated runner](../javapurs/docs/testing.md#port-particulier), preserving this checkout and its outputs.
+Use `./bin/test --help` for options and `./bin/test --clean` to rebuild the backend. The linked guide covers prerequisites, Java target/runtime settings and retained failure logs.
+
 [![CI](https://github.com/purescript-contrib/purescript-strings-extra/workflows/CI/badge.svg?branch=main)](https://github.com/purescript-contrib/purescript-strings-extra/actions?query=workflow%3ACI+branch%3Amain)
 [![Release](http://img.shields.io/github/release/purescript-contrib/purescript-strings-extra.svg)](https://github.com/purescript-contrib/purescript-strings-extra/releases)
 [![Pursuit](http://pursuit.purescript.org/packages/purescript-strings-extra/badge)](http://pursuit.purescript.org/packages/purescript-strings-extra)
